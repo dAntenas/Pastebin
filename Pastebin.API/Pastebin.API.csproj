@@ -15,4 +15,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pastebin.Core\Pastebin.Core.csproj" />
+    <ProjectReference Include="..\Pastebin.Persistence.EFCoreMSSQL\Pastebin.Persistence.EFCoreMSSQL.csproj" />
+  </ItemGroup>
+
 </Project>
