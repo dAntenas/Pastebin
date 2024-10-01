@@ -5,7 +5,7 @@ using System.Collections.Immutable;
 
 namespace Pastebin.Persistence.EFCoreMSSQL.Repositories
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly PastebinDbContext _pastebinDbContext;
 

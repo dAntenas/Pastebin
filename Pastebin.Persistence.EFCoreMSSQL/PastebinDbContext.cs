@@ -6,7 +6,7 @@ using Pastebin.Persistence.EFCoreMSSQL.Entities;
 
 namespace Pastebin.Persistence.EFCoreMSSQL
 {
-    internal class PastebinDbContext : DbContext
+    public class PastebinDbContext : DbContext
     {
         private readonly IConfiguration _configuration;
 

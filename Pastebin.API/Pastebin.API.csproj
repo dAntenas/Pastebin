@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Pastebin.Application\Pastebin.Application.csproj" />
     <ProjectReference Include="..\Pastebin.Core\Pastebin.Core.csproj" />
+    <ProjectReference Include="..\Pastebin.Infrastructure\Pastebin.Infrastructure.csproj" />
     <ProjectReference Include="..\Pastebin.Persistence.EFCoreMSSQL\Pastebin.Persistence.EFCoreMSSQL.csproj" />
   </ItemGroup>
 
